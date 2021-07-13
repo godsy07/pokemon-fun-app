@@ -10,7 +10,7 @@ body {
   display: flex;
   flex-direction: column;
   align-items: center;
-  background: linear-gradient(rgba(21, 92, 173, 0.4), rgba(3, 204, 13, 0.6));
+  background: linear-gradient(rgba(6, 59, 119, 0.76), rgba(3, 141, 10, 0.6));
   background-size: cover;
   width: 100vw;
   height: 100vh;
@@ -42,10 +42,13 @@ code {
   align-items: center;
   margin-bottom: 30px;
   width: 100vw;
+  text-transform: uppercase;
 }
 .container h1 {
   margin-top: 10px;
   margin-bottom: 15px;
+  color: #fff;
+  text-shadow: 3px 3px rgb(19, 16, 16);
 }
 
 .container .card-list {
@@ -59,17 +62,18 @@ code {
 .card-list .card-info {
   display: flex;
   flex-direction: column;
-  background: white;
+  background: rgb(250, 220, 174);
   border-radius: 5px;
   width: 100%;
   justify-items: center;
   line-height: 1px;
+  border: 2px solid black;
 }
 
 .card-info .card-images {
   display: flex;
   width: 100%;
-  max-height: 100px;
+  height: 130px;
   align-items: center;
   width: 100%;
 }
